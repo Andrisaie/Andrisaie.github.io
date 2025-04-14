@@ -1,0 +1,34 @@
+---
+layout: default
+robots: noindex
+---
+
+<!--<div class="main-post-list">-->
+
+  <ul class="timeline">
+    
+    {% for brand in site.data.brands %}
+
+      <li class="timeline-inverted">
+        <div class="timeline-image">
+          <img class="img-me" src="{{ brand.img | prepend: site.baseurl }}" alt="">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4><a href="{{ brand.url }}" target="_blank">{{ brand.name }}</a></h4>
+          </div>
+          <div class="timeline-body">
+            {% if brand.desc %}
+              {{ brand.desc | markdownify }}
+            {% else %}
+            <div repotext="{{ brand.name }}">
+              <span class="desc"></div>
+            </div>
+            {% endif %}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+
+<!--</div>-->
+

@@ -1,0 +1,29 @@
+# Site settings
+title: Andrisaie Collection
+description: 'Andrisaie Collection'
+url: 'https://www.andrisaie.com'
+baseurl: ''
+profilepic: '/images/logo.png'
+
+author:
+  name: 'Andrisaie Collection'
+  email: sales@andrisaie.com
+  github_username:  andrisaie
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md']
