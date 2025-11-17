@@ -1,6 +1,6 @@
-# Andrisaie Collection
+# Andrisaie Enterprises
 
-Landing page for Andrisaie Collection featuring Bloom & Threads PH and Nerd Cap Atelier.
+Landing page for Andrisaie Enterprises.
 
 ## Quickstart
 

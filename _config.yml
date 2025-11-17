@@ -1,12 +1,12 @@
 # Site settings
-title: Andrisaie Collection
-description: 'Andrisaie Collection'
+title: Andrisaie Enterprises
+description: 'Andrisaie Enterprises'
 url: 'https://www.andrisaie.com'
 baseurl: ''
 profilepic: '/images/logo.png'
 
 author:
-  name: 'Andrisaie Collection'
+  name: 'Andrisaie Enterprises'
   email: sales@andrisaie.com
   github_username:  andrisaie
 
